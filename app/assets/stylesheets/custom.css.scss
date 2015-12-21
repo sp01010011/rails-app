@@ -1,0 +1,12 @@
+$navbar-default-color:             #d35400 !default;
+$navbar-default-bg:               #d35400  !default;
+$navbar-default-link-color:                #fff !default;
+$navbar-default-link-hover-color:          #fff !default;
+$navbar-default-link-active-color:         #fff !default;
+
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+body > .container {
+    margin-top: 60px;
+}
